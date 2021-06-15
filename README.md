@@ -1,3 +1,3 @@
 # Arcadia Chess Club Website
 
-[Website Link](https://arcadiachessclub.github.io/)
+Hosting at [Arcadia High School Chess Club Website](https://arcadiachessclub.github.io/)
