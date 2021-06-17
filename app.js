@@ -1,7 +1,7 @@
 // Make Variables
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar-menu');
-const navBar = document.querySelector('#navbar-logo')
+const navLogo = document.querySelector('#navbar-logo')
 
 // Display Mobile Menu
 const mobileMenu = () => {
