@@ -2,37 +2,160 @@
 
 <html lang="en">
     <head>
-
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, width=device-width">
 
+        <!-- Icon -->
+        <link rel="icon" href="images/knight-icon.png">
+
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
 
-        <title>
-            Chess Club
-        </title>
-
+        <title>AHS Chess Club</title>
     </head>
 
     <body>
 
-        <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="#" id="navbar-logo"><b>AHS Chess Club</b></a>
+                <div class="navbar-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-links" id="about-page">About Us</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#officers" class="navbar-links" id="officers-page">Officers</a>
+                    </li>
+                    <li class="navbar-btn">
+                        <a href="#sign-up" class="button" id="signup">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-        </header>
-
-        <div class="hero">
-            <div class="content">
-                <h2>Welcome to</h2>
-                <h1 style=font-size:75px;>Chess Club<br> @ Arcadia High School</h1>
+        <!-- Home Section -->
+        <div class="hero" id="home">
+            <div class="hero__container">
+            <h1 class="hero__heading">Welcome to <span>Chess Club</span></h1>
+            <p class="hero__description">@ Arcadia High School</p>
+            <button class="main__btn"><a href="#about">Explore</a></button>
             </div>
         </div>
 
-        <main>
-        </main>
+        <!-- About Section -->
+        <div class="main" id="about">
+            <div class="main__container">
+                <div class="main__img--container">
+                    <div class="main__img--card"></div>
+                </div>
+                <div class="main__content">
+                    <h1>What is our purpose?</h1>
+                    <h2>To play, teach, and promote chess at AHS</h2>
+                </div>
+            </div>
+        </div>
 
-        <footer>
+        <!-- Officers Section -->
+        <div class="officers" id="officers">
+            <h1>Our Officers</h1>
+            <div class="officers-wrapper">
+                <div class="officers-card">
+                    <img class="officers-icon" src='images/Nipun-Batra.jpg'><br><br>
+                    <h2>Nipun Batra</h2>
+                    <p>President</p>
+                    <div class="officers-social__icons">
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="officers-card">
+                    <img class="officers-icon" src='images/knight-icon.png'><br><br>
+                    <h2>Alan Xiong</h2>
+                    <p>Vice-President</p>
+                    <div class="officers-social__icons">
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="officers-card">
+                    <img class="officers-icon" src='images/knight-icon.png'><br><br>
+                    <h2>Kyle Duong</h2>
+                    <p>Secretary</p>
+                    <div class="officers-social__icons">
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="officers-card">
+                    <img class="officers-icon" src='images/knight-icon.png'><br><br>
+                    <h2>Isaiah Jun</h2>
+                    <p>Treasurer</p>
+                    <div class="officers-social__icons">
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="officers-card">
+                    <img class="officers-icon" src='images/knight-icon.png'><br><br>
+                    <h2>Vincent Cheung</h2>
+                    <p>ICC Representative</p>
+                    <div class="officers-social__icons">
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        </footer>
+        <!-- Features Section -->
+        <div class="main" id="sign-up">
+            <div class="main__container">
+                <div class="main__content">
+                    <h1>Join Our Club</h1>
+                    <h2>Sign Up Now</h2><br><br>
+                    <p>Have fun with us!</p>
+                    <button class="main__btn"><a href="#">Sign Up</a></button>
+                </div>
+                <div class="main__img--container">
+                    <div class="features-main__img--card" id="card-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer__container">
+            <section class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><b><i>AHS Chess Club</i></b></a>
+                    </div>
+                    <p class="website__rights">© Arcadia Chess Club 2021 | All rights reserved.</p>
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/arcadiachessclub/" class="social__icon--link" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="mailto:arcadiachessclub1@gmail.com" class="social__icon--link" target="_blank"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Add Javascript file -->
+        <script src=app.js></script>
 
     </body>
 
