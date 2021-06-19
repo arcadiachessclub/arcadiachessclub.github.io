@@ -58,3 +58,26 @@ const hideMobileMenu = () => {
 // Event Listeners for closing mobile menu once clicked a menu item
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
+// Type "Chess Club"
+let i = 0;
+const txt = 'Chess Club';
+const speed = 150;
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
+function typeWriter() {
+    if (i < txt.length) {
+        document.getElementById("heading-title").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
+};
+
+const writeHero = async () => {
+    typeWriter();
+
+    await delay(5000);
+    document.getElementById("blinking-cursor").style.background = "transparent";
+};
+
+writeHero();
