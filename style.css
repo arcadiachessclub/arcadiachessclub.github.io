@@ -378,7 +378,7 @@ footer {
     outline: none;
 }
   
-.main__btn a {
+.main__btn span {
     position: relative;
     z-index: 2;
     color: #fff;

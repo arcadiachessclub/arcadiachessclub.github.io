@@ -36,8 +36,8 @@ const highlightMenu = () => {
         aboutMenu.classList.remove('highlight');
         return;
     }
-    
-      if ((elem && window.innerWIdth < 960 && scrollPos < 600) || elem) {
+
+    if ((elem && window.innerWIdth < 960 && scrollPos < 600) || elem) {
         elem.classList.remove('highlight');
     }
 }
@@ -50,8 +50,8 @@ window.addEventListener('click', highlightMenu);
 const hideMobileMenu = () => {
     const menuBars = document.querySelector('.is-active');
     if (window.innerWidth <= 960 && menuBars) {
-      menu.classList.toggle('is-active');
-      menuLinks.classList.remove('active');
+        menu.classList.toggle('is-active');
+        menuLinks.classList.remove('active');
     }
 };
 
@@ -76,7 +76,7 @@ function typeWriter() {
 const writeHero = async () => {
     typeWriter();
 
-    await delay(5000);
+    await delay(6000);
     document.getElementById("blinking-cursor").style.background = "transparent";
 };
 
