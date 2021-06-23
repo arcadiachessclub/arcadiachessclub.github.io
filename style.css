@@ -421,6 +421,12 @@ footer {
     background-size: cover;
     background-position: center;
     background-image: url(images/chess-background.jpg);
+    transition: 0.3s ease-in;
+}
+
+.main__img--card:hover {
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
 }
 
 /* About Section: Mobile Responsive */
@@ -561,6 +567,12 @@ footer {
     width: 100px;
     margin-top: 20px;
     margin-left: 100px;
+    transition: 0.3s ease-in;
+}
+
+.officers-social__icons :hover {
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
 }
 
 .officers-card:hover {
@@ -617,6 +629,12 @@ footer {
     background-size: cover;
     background-position: center;
     background-image: url(images/Chess-Poster.jpg);
+    transition: 0.3s ease-in;
+}
+
+.features-main__img--card:hover {
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
 }
 
 /* Sign-up Section: Mobile Responsive */
@@ -677,6 +695,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     width: 240px;
+    transition: all 0.3s ease-in;
 }
 
 .social__icons :hover {
