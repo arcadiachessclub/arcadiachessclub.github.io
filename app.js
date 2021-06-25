@@ -79,5 +79,4 @@ const writeHero = async () => {
     await delay(6000);
     document.getElementById("blinking-cursor").style.background = "transparent";
 };
-
 writeHero();
