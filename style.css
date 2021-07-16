@@ -223,7 +223,7 @@ footer {
 /* Home Section */
 .hero {
     height: 100vh;
-    background-image: url(images/chess-background.jpg);
+    background-image: url(https://raw.githubusercontent.com/arcadiachessclub/arcadiachessclub.github.io/main/images/chess-background.jpg);
     background-size: cover;
     background-position: center;
 }
