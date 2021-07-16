@@ -628,7 +628,7 @@ footer {
     color: #fff;
     background-size: cover;
     background-position: center;
-    background-image: url(images/Chess-Poster.jpg);
+    background-image: url(https://raw.githubusercontent.com/arcadiachessclub/arcadiachessclub.github.io/main/images/Chess-Poster.jpg);
     transition: 0.3s ease-in;
 }
 
