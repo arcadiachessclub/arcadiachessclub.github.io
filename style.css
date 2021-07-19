@@ -670,10 +670,17 @@ footer {
     text-decoration: none;
     font-size: 2rem;
 }
+
+.lichess-icon {
+    width: 55px;
+    display: block;
+    margin-left: -15px;
+}
   
 .social__icon--link {
     color: #131313;
     font-size: 30px;
+    margin-right: 20px;
 }
   
 .social__media {
