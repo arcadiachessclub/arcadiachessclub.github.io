@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* font-family: "Brush Script MT", Futura, sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -119,6 +119,11 @@ footer {
     background: linear-gradient(to right, #679d9e, #b1e4b9);
     color: #fff;
     transition: all 0.3s ease;
+}
+
+#signup {
+  color: #131313;
+  font-weight: 500;
 }
 
 .navbar-links:hover {
@@ -383,6 +388,7 @@ footer {
     z-index: 2;
     color: #fff;
     text-decoration: none;
+    font-weight: 500;
 }
   
 .main__btn:after {
