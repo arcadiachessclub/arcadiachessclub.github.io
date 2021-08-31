@@ -426,7 +426,7 @@ footer {
     color: #fff;
     background-size: cover;
     background-position: center;
-    background-image: url(images/chess-background.jpg);
+    background-image: url(images/logo_square.png);
     transition: 0.3s ease-in;
 }
 
