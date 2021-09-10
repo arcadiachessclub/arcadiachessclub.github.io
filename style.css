@@ -251,7 +251,7 @@ footer {
     color: #d7d2cc;
 }
 
-#blinking-cursor {
+/* #blinking-cursor {
   height: 90px;
   margin-bottom: -8px;
   width: 6px;
@@ -268,7 +268,7 @@ footer {
   100% {
     opacity: 1;
   }
-}
+} */
 
 .hero__heading span {
     background-color: #508b8c;
