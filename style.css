@@ -296,7 +296,7 @@ footer {
     border-bottom: 4px solid #449596;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .hero__heading {
       font-size: 60px;
     }
