@@ -165,7 +165,8 @@ footer {
     }
   
     #navbar-logo {
-      padding-left: 25px;
+      margin-left: "10%";
+      font-size: 1.2rem;
     }
   
     .navbar-toggle .bar {
