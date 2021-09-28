@@ -165,7 +165,8 @@ footer {
     }
   
     #navbar-logo {
-      padding-left: 25px;
+      margin-left: "10%";
+      font-size: 1.2rem;
     }
   
     .navbar-toggle .bar {
@@ -251,7 +252,7 @@ footer {
     color: #d7d2cc;
 }
 
-/* #blinking-cursor {
+#blinking-cursor {
   height: 90px;
   margin-bottom: -8px;
   width: 6px;
@@ -268,7 +269,7 @@ footer {
   100% {
     opacity: 1;
   }
-} */
+}
 
 .hero__heading span {
     background-color: #508b8c;
@@ -298,17 +299,17 @@ footer {
 
 @media screen and (max-width: 1000px) {
     .hero__heading {
-      font-size: 60px;
+      font-size: 50px;
     }
 
     #blinking-cursor {
-      height: 50px;
+      height: 40px;
       margin-bottom: -6px;
       width: 4px;
     }
   
     .hero__description {
-      font-size: 40px;
+      font-size: 30px;
     }
 }
 
