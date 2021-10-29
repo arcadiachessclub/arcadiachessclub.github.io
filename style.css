@@ -679,15 +679,14 @@ footer {
 }
 
 .lichess-icon {
-    width: 30px;
-    display: block;
-    margin-left: -10px;
+  width: 34px;
+  display: block;
+  margin-left: -8px;
 }
   
 .social__icon--link {
     color: #131313;
     font-size: 30px;
-    margin-right: 20px;
 }
   
 .social__media {
